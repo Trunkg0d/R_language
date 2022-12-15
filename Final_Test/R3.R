@@ -17,7 +17,7 @@ f = function(x, mu = 0, sigma = 1){
 integrate(function(x) f(x,0,1), lower = -Inf, upper = Inf)
 
 ################################################################################################
-# Bieu dien bang do thi
+# Bieu dien bang do thi ham mat do xac suat
 plot(k, p(k), type='h', ylab="P(X=x)")
 
 curve(f(x,0,1),from=-3, to=3,ylab="fX(x)")
